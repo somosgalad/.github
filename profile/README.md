@@ -4,8 +4,6 @@
 
 # Galad
 
-**Agentes de IA, de Teresina.**
-
 ## Atalaia, nosso primeiro produto
 
 > Multa é coisa de quem não tem Atalaia.
@@ -16,4 +14,4 @@ Ainda é um protótipo, com demonstração marcada para 03/12/2026. O código e 
 
 ## Quem faz
 
-[Nicolly](https://github.com/adlercode) e [Italo](https://github.com/itallo-dev-code), de Teresina (PI).
+[Nicolly](https://github.com/adlercode) e [Italo](https://github.com/itallo-dev-code).
