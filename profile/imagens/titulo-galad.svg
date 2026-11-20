@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 56" role="img" aria-label="Galad" shape-rendering="crispEdges">
+<title>Galad</title>
+<style>
+.faisca,.acesa{opacity:0;animation:9s steps(1,end) infinite}
+.faisca{animation-name:faisca}
+.acesa{animation-name:acende}
+@keyframes faisca{0%{opacity:1}3%,100%{opacity:0}}
+@keyframes acende{0%{opacity:0}3%,80%{opacity:1}81%,100%{opacity:0}}
+.l0{animation-delay:0.50s}.l1{animation-delay:0.54s}.l2{animation-delay:0.58s}.l3{animation-delay:0.61s}.l4{animation-delay:0.65s}
+.feixe{opacity:0;animation:varre 9s infinite}
+@keyframes varre{
+0%,5.56%{opacity:0;transform:translateX(64px)}
+5.57%{opacity:1;transform:translateX(64px);animation-timing-function:steps(11,end)}
+7.88%{opacity:1;transform:translateX(152px)}
+7.89%,100%{opacity:0;transform:translateX(152px)}}
+.brilho{animation:pisca 9s steps(1,end) infinite}
+@keyframes pisca{0%,6%{opacity:.6}5.57%,14%{opacity:1}13.89%,100%{opacity:.8}}
+/* Quem pediu menos movimento vê o título aceso e parado, sem feixe */
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.feixe,.faisca{display:none}.acesa{opacity:1}}
+</style>
+<rect width="880" height="56" fill="#101B3A"/>
+<path fill="#2E3A60" d="M68,20h4v4h-4zM72,20h4v4h-4zM64,24h4v4h-4zM64,28h4v4h-4zM72,28h4v4h-4zM64,32h4v4h-4zM72,32h4v4h-4zM68,36h4v4h-4zM72,36h4v4h-4zM84,20h4v4h-4zM80,24h4v4h-4zM88,24h4v4h-4zM80,28h4v4h-4zM84,28h4v4h-4zM88,28h4v4h-4zM80,32h4v4h-4zM88,32h4v4h-4zM80,36h4v4h-4zM88,36h4v4h-4zM96,20h4v4h-4zM96,24h4v4h-4zM96,28h4v4h-4zM96,32h4v4h-4zM96,36h4v4h-4zM100,36h4v4h-4zM104,36h4v4h-4zM116,20h4v4h-4zM112,24h4v4h-4zM120,24h4v4h-4zM112,28h4v4h-4zM116,28h4v4h-4zM120,28h4v4h-4zM112,32h4v4h-4zM120,32h4v4h-4zM112,36h4v4h-4zM120,36h4v4h-4zM128,20h4v4h-4zM132,20h4v4h-4zM128,24h4v4h-4zM136,24h4v4h-4zM128,28h4v4h-4zM136,28h4v4h-4zM128,32h4v4h-4zM136,32h4v4h-4zM128,36h4v4h-4zM132,36h4v4h-4z"/>
+<path class="acesa l0" fill="#E8ECF2" d="M68,20h4v4h-4zM72,20h4v4h-4zM64,24h4v4h-4zM64,28h4v4h-4zM72,28h4v4h-4zM64,32h4v4h-4zM72,32h4v4h-4zM68,36h4v4h-4zM72,36h4v4h-4z"/><path class="acesa l1" fill="#E8ECF2" d="M84,20h4v4h-4zM80,24h4v4h-4zM88,24h4v4h-4zM80,28h4v4h-4zM84,28h4v4h-4zM88,28h4v4h-4zM80,32h4v4h-4zM88,32h4v4h-4zM80,36h4v4h-4zM88,36h4v4h-4z"/><path class="acesa l2" fill="#E8ECF2" d="M96,20h4v4h-4zM96,24h4v4h-4zM96,28h4v4h-4zM96,32h4v4h-4zM96,36h4v4h-4zM100,36h4v4h-4zM104,36h4v4h-4z"/><path class="acesa l3" fill="#E8ECF2" d="M116,20h4v4h-4zM112,24h4v4h-4zM120,24h4v4h-4zM112,28h4v4h-4zM116,28h4v4h-4zM120,28h4v4h-4zM112,32h4v4h-4zM120,32h4v4h-4zM112,36h4v4h-4zM120,36h4v4h-4z"/><path class="acesa l4" fill="#E8ECF2" d="M128,20h4v4h-4zM132,20h4v4h-4zM128,24h4v4h-4zM136,24h4v4h-4zM128,28h4v4h-4zM136,28h4v4h-4zM128,32h4v4h-4zM136,32h4v4h-4zM128,36h4v4h-4zM132,36h4v4h-4z"/>
+<path class="faisca l0" fill="#C2A66B" d="M68,20h4v4h-4zM72,20h4v4h-4zM64,24h4v4h-4zM64,28h4v4h-4zM72,28h4v4h-4zM64,32h4v4h-4zM72,32h4v4h-4zM68,36h4v4h-4zM72,36h4v4h-4z"/><path class="faisca l1" fill="#C2A66B" d="M84,20h4v4h-4zM80,24h4v4h-4zM88,24h4v4h-4zM80,28h4v4h-4zM84,28h4v4h-4zM88,28h4v4h-4zM80,32h4v4h-4zM88,32h4v4h-4zM80,36h4v4h-4zM88,36h4v4h-4z"/><path class="faisca l2" fill="#C2A66B" d="M96,20h4v4h-4zM96,24h4v4h-4zM96,28h4v4h-4zM96,32h4v4h-4zM96,36h4v4h-4zM100,36h4v4h-4zM104,36h4v4h-4z"/><path class="faisca l3" fill="#C2A66B" d="M116,20h4v4h-4zM112,24h4v4h-4zM120,24h4v4h-4zM112,28h4v4h-4zM116,28h4v4h-4zM120,28h4v4h-4zM112,32h4v4h-4zM120,32h4v4h-4zM112,36h4v4h-4zM120,36h4v4h-4z"/><path class="faisca l4" fill="#C2A66B" d="M128,20h4v4h-4zM132,20h4v4h-4zM128,24h4v4h-4zM136,24h4v4h-4zM128,28h4v4h-4zM136,28h4v4h-4zM128,32h4v4h-4zM136,32h4v4h-4zM128,36h4v4h-4zM132,36h4v4h-4z"/>
+<g class="feixe"><path fill="#C2A66B" opacity=".35" d="M-4,14h4v4h-4zM-8,14h4v4h-4zM-4,18h4v4h-4zM-8,18h4v4h-4zM-4,22h4v4h-4zM-8,22h4v4h-4zM-4,26h4v4h-4zM-8,26h4v4h-4zM-4,30h4v4h-4zM-8,30h4v4h-4zM-4,34h4v4h-4zM-8,34h4v4h-4zM-4,38h4v4h-4zM-8,38h4v4h-4z"/><path fill="#FFE7B0" d="M0,10h4v4h-4zM0,14h4v4h-4zM0,18h4v4h-4zM0,22h4v4h-4zM0,26h4v4h-4zM0,30h4v4h-4zM0,34h4v4h-4zM0,38h4v4h-4zM0,42h4v4h-4z"/></g>
+<g class="brilho"><path fill="#C2A66B" d="M30,16h4v4h-4zM30,20h4v4h-4zM26,24h4v4h-4zM30,24h4v4h-4zM34,24h4v4h-4zM18,28h4v4h-4zM22,28h4v4h-4zM26,28h4v4h-4zM34,28h4v4h-4zM38,28h4v4h-4zM42,28h4v4h-4zM26,32h4v4h-4zM30,32h4v4h-4zM34,32h4v4h-4zM30,36h4v4h-4zM30,40h4v4h-4z"/><path fill="#FFE7B0" d="M30,28h4v4h-4z"/></g>
+</svg>
