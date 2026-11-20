@@ -1,10 +1,6 @@
 <p align="center">
-  <img src="imagens/abertura.webp" width="100%" alt="Galad. Agentes de IA, de Teresina.">
-</p>
-
-<p align="center">
   <a href="https://github.com/somosgalad/atalaia">
-    <img src="imagens/atalaia.webp" width="100%" alt="Multa é coisa de quem não tem Atalaia.">
+    <img src="imagens/farol.webp" width="70%" alt="O símbolo da Galad é um farol: o feixe varre o escuro e acha o Atalaia.">
   </a>
 </p>
 
