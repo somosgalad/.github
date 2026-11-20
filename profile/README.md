@@ -6,8 +6,6 @@
 
 **Agentes de IA, de Teresina.**
 
-A gente faz agentes de IA para aquela rotina chata e arriscada de uma empresa, em que um esquecimento vira multa ou prejuízo. O agente faz o trabalho pesado e uma pessoa sempre confere e decide.
-
 ## Atalaia, nosso primeiro produto
 
 > Multa é coisa de quem não tem Atalaia.
