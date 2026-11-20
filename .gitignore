@@ -1,0 +1,6 @@
+# Quadros do Blender e prints de teste: são refeitos pelos scripts em render/ e pesariam centenas de MB.
+render/quadros-*/
+render/teste-*
+render/texto-*.png
+__pycache__/
+.DS_Store
